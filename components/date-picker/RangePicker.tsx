@@ -399,9 +399,8 @@ class RangePicker extends React.Component<any, RangePickerState> {
         </span>
       ) : (
         <span>
-          创建时间 &nbsp;
+          {props.title} &nbsp;
           <Icon type={this.state.open ? 'up' : 'down'} />
-          <span style={{ marginLeft: 5, color: '#d4dfe5' }}>|</span>
         </span>
       );
     };
