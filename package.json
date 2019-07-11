@@ -19,14 +19,14 @@
     "ant"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "http://218.104.238.196:8083/repository/npm_hosted/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/pigzhuzhu55/ant-design"
   },
   "bugs": {
-    "url": "https://github.com/ant-design/ant-design/issues"
+    "url": "https://github.com/pigzhuzhu55/ant-design/issues"
   },
   "main": "lib/index.js",
   "module": "es/index.js",

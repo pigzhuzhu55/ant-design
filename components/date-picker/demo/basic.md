@@ -28,9 +28,11 @@ ReactDOM.render(
     <br />
     <MonthPicker onChange={onChange} placeholder="Select month" />
     <br />
-    <RangePicker onChange={onChange} />
+    <RangePicker onChange={onChange} align={{ offset: [0, 29] }} type="Select" />
     <br />
-    <WeekPicker onChange={onChange} placeholder="Select week" />
+    <RangePicker onChange={onChange} type="Input" />
+    <br />
+    <WeekPicker onChange={onChange} placeholder="Select week1" />
   </div>,
   mountNode,
 );
