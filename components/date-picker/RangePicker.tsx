@@ -401,6 +401,7 @@ class RangePicker extends React.Component<any, RangePickerState> {
         <span>
           {props.title} &nbsp;
           <Icon type={this.state.open ? 'up' : 'down'} />
+          {props.showItemSeparator && <span style={{ marginLeft: 5, color: '#d4dfe5' }}>|</span>}
         </span>
       );
     };
